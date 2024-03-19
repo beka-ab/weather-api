@@ -18,14 +18,12 @@ const Weather = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
 
-  const baseURL = "http://api.weatherapi.com/v1/current.json";
+  const baseURL = "https://api.weatherapi.com/v1/current.json";
   const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
   const days = 5;
 
   useEffect(() => {
-    console.log(queryParam);
-    console.log();
     axios
       .get(`${baseURL}?key=${apiKey}&q=${queryParam}&days=${days}`)
       .then((response) => {
