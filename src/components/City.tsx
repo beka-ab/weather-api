@@ -56,7 +56,7 @@ const City = () => {
       {loading ? (
         <>
           <img className="loading-img" src={travolta} alt="Loading..." />
-          {error && <span>entered country is doesn't exists ... </span>}
+          {error && <span>entered country doesn't exists ... </span>}
         </>
       ) : (
         cities && (
