@@ -3,3 +3,45 @@
   height: 20px;
   background-color: aqua;
 }
+.city-input {
+  margin: 20px 0px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 200px;
+  height: 20px;
+  font-family: "Madimi One", sans-serif;
+}
+.search-btn {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 10px;
+  background-color: rgb(143, 114, 170);
+  cursor: pointer;
+  color: white;
+  font-family: "Madimi One", sans-serif;
+}
+.city-name {
+  font-weight: 400;
+  background-color: rgb(143, 114, 170);
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: white;
+}
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25vw;
+  column-gap: 20px;
+  justify-content: center;
+}
+.city-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-img {
+  width: 200px;
+}
